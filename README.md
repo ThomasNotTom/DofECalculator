@@ -12,9 +12,7 @@ To set this up you must:
     <br>
     <li>"build.bat" which will build the .exe into "dist/win-unpacked" called "dofeapplication.exe"
     A setup file is also created in "dist" called "dofeapplication Setup 1.0.0.exe". Which, when executed, will install the exe to your computer, and then run the application</li>
-    <br>
     or
-    <br>
     <li>"run.bat" which will just run the application</li>
   </ul>
 </ol>
