@@ -1,0 +1,132 @@
+#Earth {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+#container {
+    position: absolute;
+    left: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transform: translate(-50%);
+    width: 80%;
+    height: 230%;
+    background-color: white;
+}
+
+#top-text {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+#general-info {
+    padding-left: 30px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#inputs {
+    position: relative;
+    width: 70%;
+    height: 100px;
+    left: 50%;
+    top: 50px;
+    transform: translate(-50%);
+    display: inline-block;
+}
+
+#premium {
+    position: absolute;
+    left: 0;
+    transform: inherit;
+}
+
+#onsperc {
+    position: absolute;
+    left: 33%;
+    transform: inherit;
+}
+
+#comperc {
+    position: absolute;
+    left: 67%;
+    transform: inherit;
+}
+
+
+.input-box {
+    width: 200px;
+    height: 45px;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.input-text {
+    font-size: 25px;
+}
+
+#calculate {
+    position: absolute;
+    top: 29px;
+    left: 100%;
+    transform: inherit;
+    background-color: #268bb6;
+    transition: background-color 0.5s;
+    font-size: 25px;
+    color: white;
+}
+#calculate:hover {
+    background-color: #6ba6bf;
+    cursor: pointer;
+}
+
+#amount-info {
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+#graph_holder {
+    position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+#data-table {
+    position: relative;
+    width: 90%;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%);
+    border-collapse: collapse;
+    border: black 2px solid;;
+}
+
+.head {
+    color: white;
+    background-color: #589562;
+    padding: 10px;
+    font-size: 23px;
+}
+
+.cell {
+    font-size: 25px;
+    border: #ffffff 1px solid;
+    text-align: center;
+}
+
+body {
+    font-family: Tahoma;
+    background-color: black;
+    cursor: default;
+}

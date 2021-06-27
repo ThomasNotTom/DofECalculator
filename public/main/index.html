@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link href="index.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.2/dist/chart.min.js"></script>
+  <script defer src="Graph.js"></script>
+  <script defer src="index.js"></script>
+  <title>DofE Application</title>
+</head>
+<body>
+<img src="../img/Earth.jpg" id="Earth">
+<div id="container">
+  <div id="top-text">Your energy spend:</div>
+  <div id="general-info">The figures shown here are for illustrative purposes only, they do not form any part of any contract or guarantee.<br>
+    For contractual purposes we use the ONS figure for annual energy inflation which at present is 7.04%
+  </div>
+  <div id="inputs">
+    <div id="premium">
+      <div id="premium-text" class="input-text">Amount</div>
+      <input id="premium-input" class="input-box" type="number" onkeyup="update_info()" value="100" title="The amount for 1 month">
+    </div>
+    <div id="onsperc">
+      <div id="onsperc-text" class="input-text">ONS Value</div>
+      <select id="onsperc-input" class="input-box"></select>
+    </div>
+    <div id="comperc">
+      <div id="comperc-text" class="input-text">Comparison Value</div>
+      <select id="comperc-input" class="input-box"></select>
+    </div>
+    <button id="calculate" class="input-box" onclick="calculate()">Calculate</button>
+  </div>
+  <div id="amount-info">
+
+  </div>
+  <div id="graph_holder">
+    <canvas id="graph"></canvas>
+  </div>
+  <table id="data-table">
+
+  </table>
+</div>
+</body>
+</html>
