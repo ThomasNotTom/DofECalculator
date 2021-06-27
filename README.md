@@ -1,1 +1,20 @@
 # DofECalculator
+
+The program can either be run directly from "public/main/index.html".
+However can also be run/built, using Electron.
+
+To set this up you must:
+<ol>
+  <li>Install Node.js</li>
+  <li>Run "pckgInstaller.bat"</li>
+  <li>Then either run</li>
+  <ul>
+    <br>
+    <li>"build.bat" which will build the .exe into "dist/win-unpacked" called "dofeapplication.exe"</li>
+    or
+    <li>A setup file is also created in "dist" called "dofeapplication Setup 1.0.0.exe"</li>
+    <br>
+    The former will just run the application
+    Whereas the latter will install the exe to your computer, and then run the application
+  </ul>
+</ol>
