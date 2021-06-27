@@ -1,4 +1,4 @@
-# DofECalculator
+# D of E Electricity Comparitor and Calculator
 
 The program can either be run directly from "public/main/index.html".
 However can also be run/built, using Electron.
