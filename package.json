@@ -1,0 +1,23 @@
+{
+  "name": "dofeapplication",
+  "version": "1.0.0",
+  "description": "An electricity calculator",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder build"
+  },
+  "keywords": [],
+  "author": "Thomas",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.1",
+    "electron-builder": "^22.10.5"
+  },
+  "build": {
+    "appId": "com.thomas.calc",
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
